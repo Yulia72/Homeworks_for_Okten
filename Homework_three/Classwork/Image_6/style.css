@@ -1,0 +1,80 @@
+:root {
+    --color_light__blue: #4B91E1;
+    --color_dark__blue: #3E4BE1;
+    --color_text: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    border: 5px solid var(--color_dark__grey);
+    padding: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: xx-large;
+    color: var(--color_text);
+    font-family: "Times New Roman";
+}
+
+.size {
+    font-size: large;
+    color: var(--color_text);
+    font-family: "Times New Roman";
+}
+
+.main {
+    margin-top: 15px;
+    display: flex;
+    column-gap: 15px;
+}
+
+.header {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main_item {
+    flex-grow: 1;
+    width: 50%;
+    height: 400px;
+    background-color: var(--color_light__blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kabobs {
+    background-color: var(--color_light__blue);
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_three__blocks {
+    margin-top: 15px;
+    display: flex;
+    column-gap: 15px;
+}
+
+.main_three__item {
+    width: 100%;
+    height: 200px;
+    background-color: var(--color_dark__blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

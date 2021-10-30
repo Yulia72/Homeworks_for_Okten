@@ -1,0 +1,26 @@
+h2 {
+    background: darkgray;
+}
+
+li {
+    list-style: circle;
+}
+.target {
+    list-style: none;
+    font-size: 20px;
+
+}
+body, html {
+    scroll-behavior: smooth;
+    background: #ffe0e5;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #0ce137;
+}
+p {
+    text-align: justify;
+}
